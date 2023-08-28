@@ -4,10 +4,10 @@
     $(document).on('ready', function() {
 
 
-    $(window).on('load', function() {
+    // $(window).on('load', function() {
         // Animate loader off screen
-        $(".preloader").delay(500).fadeOut();
-    });
+        $(".preloader").delay(1000).fadeOut();
+    // });
 
     new WOW().init();
 
